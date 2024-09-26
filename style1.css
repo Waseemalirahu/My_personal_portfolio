@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #020507; /* Light grey background */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #a76060; /* White background for the container */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50; /* Green color for heading */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merge table borders */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light grey border for rows */
+}
+
+th {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text for header */
+}
+
+tr:hover {
+    background-color: #f2f2f2; /* Light grey background on hover */
+}
+
+.order-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #007bff; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.order-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

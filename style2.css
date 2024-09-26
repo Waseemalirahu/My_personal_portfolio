@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ecf0f3; /* Light grey background */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #faf3f3; /* White background for the container */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+}
+
+h1 {
+    text-align: center;
+    color: #343a40; /* Dark grey color for heading */
+}
+
+.contact-info {
+    margin-bottom: 20px; /* Space below contact info */
+}
+
+label {
+    margin-top: 10px;
+    display: block; /* Display label as block */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin: 5px 0 20px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners for inputs */
+}
+
+textarea {
+    resize: none; /* Disable resizing of textarea */
+}
+
+.submit-btn {
+    background-color: #28a745; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.submit-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.order-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #007bff; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.order-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
